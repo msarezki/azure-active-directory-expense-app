@@ -29,7 +29,7 @@ using System.Data;
 using System.Linq;
 using System.Threading;
 using System.Web.Mvc;
-using Microsoft.IdentityModel.Claims;
+using System.IdentityModel.Claims;
 using Microsoft.Online.Demos.Aadexpense.ActionFilters;
 using Microsoft.Online.Demos.Aadexpense.Models;
 using Microsoft.Online.Demos.Aadexpense.ServiceReference1;

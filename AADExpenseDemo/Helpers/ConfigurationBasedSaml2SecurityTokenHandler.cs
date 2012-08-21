@@ -30,8 +30,8 @@ namespace Microsoft.Online.Demos.Aadexpense.Helpers
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using Microsoft.IdentityModel.Tokens;
-    using Microsoft.IdentityModel.Tokens.Saml2;
+    using System.IdentityModel.Tokens;
+    using System.IdentityModel.Tokens.Saml2;
 
 
     public class ConfigurationBasedSaml2SecurityTokenHandler : Saml2SecurityTokenHandler

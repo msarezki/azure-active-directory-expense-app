@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ServiceConfiguration serviceName="AADExpenseDemo" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AADExpenseDemo" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
   <Role name="AADExpenseDemo">
     <Instances count="1" />
-    <ConfigurationSettings>
-    </ConfigurationSettings>
-    <Certificates>
-    </Certificates>
+    <ConfigurationSettings></ConfigurationSettings>
+    <Certificates></Certificates>
   </Role>
 </ServiceConfiguration>

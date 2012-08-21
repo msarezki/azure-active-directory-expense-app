@@ -31,7 +31,7 @@ using System.Web.Mvc;
 using Microsoft.Online.Demos.Aadexpense.ActionFilters;
 using Microsoft.Online.Demos.Aadexpense.Models;
 using System.Threading;
-using Microsoft.IdentityModel.Claims;
+using System.IdentityModel.Claims;
 using Microsoft.Online.Demos.Aadexpense.ServiceReference1;
 
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServiceDefinition name="AADExpenseDemo" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+<ServiceDefinition name="AADExpenseDemo" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-05.1.7">
   <WebRole name="AADExpenseDemo" vmsize="Small">
     <Sites>
       <Site name="Web">
@@ -11,11 +11,8 @@
     <Endpoints>
       <InputEndpoint name="HttpsIn" protocol="https" port="8080" />
     </Endpoints>
-    <Imports>
-    </Imports>
-    <Certificates>
-    </Certificates>
-    <ConfigurationSettings>
-    </ConfigurationSettings>
+    <Imports></Imports>
+    <Certificates></Certificates>
+    <ConfigurationSettings></ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>
