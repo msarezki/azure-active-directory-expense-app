@@ -28,7 +28,7 @@
 
 using System.Threading;
 using System.Web.Mvc;
-using System.IdentityModel.Claims;
+using Microsoft.IdentityModel.Claims;
 
 namespace Microsoft.Online.Demos.Aadexpense.ActionFilters
 {

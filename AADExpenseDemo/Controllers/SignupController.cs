@@ -31,7 +31,7 @@ using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 using Microsoft.Online.Demos.Aadexpense.Models;
-using System.IdentityModel.Claims;
+using Microsoft.IdentityModel.Claims;
 
 namespace Microsoft.Online.Demos.Aadexpense.Controllers
 {
