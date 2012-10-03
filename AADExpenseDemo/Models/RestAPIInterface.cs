@@ -35,7 +35,7 @@ using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Threading;
-using System.IdentityModel.Claims;
+using Microsoft.IdentityModel.Claims;
 using Microsoft.Online.Demos.Aadexpense.Helpers;
 using Microsoft.Online.Demos.Aadexpense.ServiceReference1;
 using Microsoft.Online.DirectoryApi.TokenHelper;

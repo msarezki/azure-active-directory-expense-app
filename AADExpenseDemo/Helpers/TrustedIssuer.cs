@@ -30,7 +30,7 @@ namespace Microsoft.Online.Demos.Aadexpense.Helpers
             this.Name = name;
             this.DisplayName = displayName;
             this.Spn = spn;
-            var reply = System.IdentityModel.Configuration.MicrosoftIdentityModelSection.DefaultServiceElement.FederatedAuthentication.WSFederation.Reply;
+            var reply = Microsoft.IdentityModel.Configuration.MicrosoftIdentityModelSection.DefaultServiceElement.FederatedAuthentication.WSFederation.Reply;
             this.LoginUrl = new Uri(string.Format(Constants.LoginUrlPattern, HttpContext.Current.Server.UrlEncode(spn), HttpContext.Current.Server.UrlEncode(reply)));
         }
 

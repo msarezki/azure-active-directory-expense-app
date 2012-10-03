@@ -28,7 +28,7 @@ namespace Microsoft.Online.DirectoryApi.TokenHelper
     using System.Collections.Generic;
     using System.Collections.Specialized;
     using System.Globalization;
-    using System.IdentityModel.Tokens;
+    using Microsoft.IdentityModel.Tokens;
     using System.IO;
     using System.Linq;
     using System.Net;
@@ -39,6 +39,7 @@ namespace Microsoft.Online.DirectoryApi.TokenHelper
     using System.Text;
     using System.Web;
     using System.Web.Script.Serialization;
+    using System.IdentityModel.Tokens;
 
 
     /// <summary>

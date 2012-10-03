@@ -24,7 +24,7 @@
 
 using System.Threading;
 using System.Web.Mvc;
-using System.IdentityModel.Claims;
+using Microsoft.IdentityModel.Claims;
 using System;
 using System.Web;
 using System.Linq;
